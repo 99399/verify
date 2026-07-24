@@ -11,7 +11,7 @@ CLIENT_SECRET = "Lv8lPIzeR3EDekpq3FYZzfZpNofi_mzI"
 REDIRECT_URI = "https://verify-jeps.onrender.com/callback"
 
 # ★Botのトークン（Botを操作するための権限）
-BOT_TOKEN = "MTUyOTczNjg4MzgyNjA2NTUwOA.GE75lj.ueTceY9a-zYr5iqBxAm3dZIx1gscwiB_DjfbU0"
+BOT_TOKEN = "MTUyOTczNjg4MzgyNjA2NTUwOA.GaXNuV.Ap2QddzLLnI1ijSSoweArlFEpNzbXoZru2Z-sw"
 
 # Botが保存する設定ファイルのパス
 SETTINGS_FILE = "settings.json"
