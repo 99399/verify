@@ -6,8 +6,8 @@ import os
 app = Flask(__name__)
 
 # --- 設定項目 ---
-CLIENT_ID = "1530021668695703764"
-CLIENT_SECRET = "OUW1q27IwJRJeHS2u5EfEtP8cFAbSTb0"
+CLIENT_ID = "1530122948193554502"
+CLIENT_SECRET = "bfY1c24peQH31UnuvReqcuhaFpXkU-3-"
 REDIRECT_URI = "https://verify-jeps.onrender.com/callback"
 
 # ★Botのトークン（Botを操作するための権限）
