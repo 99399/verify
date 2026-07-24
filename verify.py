@@ -40,7 +40,8 @@ def login():
 def callback():
     code = request.args.get("code")
     if not code:
-        return "認証に失敗しました", 400
+        # 直接アクセスされたときのエラーメッセージを分かりやすくしました
+        return "<h3 style='color: red;'>エラー</h3><p>トップページの「Discordでログイン」ボタンから進んでください。</p>", 400
 
     if request.environ.get('HTTP_X_FORWARDED_FOR'):
         user_ip = request.environ['HTTP_X_FORWARDED_FOR'].split(',')[0].strip()
