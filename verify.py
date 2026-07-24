@@ -6,12 +6,12 @@ import os
 app = Flask(__name__)
 
 # --- 設定項目 ---
-CLIENT_ID = "1529736883826065508"
-CLIENT_SECRET = "Lv8lPIzeR3EDekpq3FYZzfZpNofi_mzI"
+CLIENT_ID = "1530021668695703764"
+CLIENT_SECRET = "OUW1q27IwJRJeHS2u5EfEtP8cFAbSTb0"
 REDIRECT_URI = "https://verify-jeps.onrender.com/callback"
 
 # ★Botのトークン（Botを操作するための権限）
-BOT_TOKEN = "MTUyOTczNjg4MzgyNjA2NTUwOA.GUNEYc.ifSVey56PBc-AbayuA4vP6W96gQF-MKPMKKq24"
+BOT_TOKEN = "MTUzMDAyMTY2ODY5NTcwMzc2NA.GVHbsS.xMMgPuvHDV5jaysPbGir3Oote14ohQKzoYUS1A"
 
 # Botが保存する設定ファイルのパス
 SETTINGS_FILE = "settings.json"
